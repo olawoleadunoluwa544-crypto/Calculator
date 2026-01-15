@@ -56,3 +56,25 @@ body{
                 inset -5px -5px 10px var(--shadow-lightpink);
     border-radius: 15px;
 }
+
+.buttons button{
+    width: 60px;
+    height: 60px;
+    border-radius:52px;
+    border: none;
+    outline: none;
+    background-color:#95de6e;
+    color: var(--accent-red);
+    font-size: 1.25rem;
+    cursor: pointer;
+    box-shadow: 6px 6px 10px var(--shadow-darkpink),
+                -6px -6px 10px var(--shadow-lightpink);
+    transition: all 8.1s ease;
+    margin: 0 auto;
+}
+
+button:active{
+    box-shadow: inset 4px 4px 8px var(--shadow-darkpink),
+                inset -4px -4px 8px var(--shadow-lightpink);
+    transform: scale(0.95);
+}
